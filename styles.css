@@ -130,7 +130,16 @@ button[type="submit"]:hover {
 #back-to-top:hover {
   background-color: #003366;
 }
-
+.profile-photo {
+  display: block;
+  margin: 0 auto 2rem auto;
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 50%; /* Circular frame */
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+  border: 4px solid #fff;
+}
 /* Responsive menu */
 @media (max-width: 768px) {
   #nav-links {
